@@ -1,0 +1,15 @@
+body{
+    background-color:#44326B;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+a:link{
+    color:goldenrod;
+    text-decoration:underline;
+    cursor:default;
+}
+
+a:visited{
+    color:hotpink;
+}

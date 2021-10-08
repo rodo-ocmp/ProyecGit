@@ -13,3 +13,13 @@ a:link{
 a:visited{
     color:hotpink;
 }
+
+#contenido img{
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+#contenido iframe{
+    width: 448px;
+    height: 252px;
+}

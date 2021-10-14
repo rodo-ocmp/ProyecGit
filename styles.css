@@ -1,15 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
 body{
-    background-color:darkslategray;
+    background-color:#CFAB3D;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    color: blanchedalmond;
+    color:#0B2223;
+    width: 100%;
+    height: 100%;
 }
 
 a:link{
-    color:goldenrod;
+    color:hotpink;
     text-decoration:underline;
     cursor:default;
 }
 
 a:visited{
-    color:hotpink;
+    color:indigo;
+}
+
+#contenido{
+    background-color:blanchedalmond;
+    width: 50%;
+    max-width: 50rem;
+    text-align: center;
+    /*El orden del margen es: arriba, derecha, abajo, izquierda*/
+    margin: 7% 25% 5% 25%;
+    padding: 2rem 0.5rem;
+    border-radius: 5rem;
+}
+
+#card img{
+    width: 50%;
+    border: 6px solid #334756;
+    border-radius: 5rem;
 }
